@@ -4,7 +4,7 @@ import { logout } from '../store/authSlice.js';
 
 // Create axios instance
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://grocery-rdyv.onrender.com/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
